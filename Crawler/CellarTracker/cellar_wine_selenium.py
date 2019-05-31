@@ -204,29 +204,29 @@ if __name__ == '__main__':
 
     # finewest
     sql1 = pymysql.connect (
-        host='rm-2zehi2ns25kee8568o.mysql.rds.aliyuncs.com',
-        port=3306,
-        user='fwread',
-        password='Finewest1127',
-        db='finewest'
+        host='',
+        port=,
+        user='',
+        password='',
+        db=''
     )
     cursor1 = sql1.cursor ()
 
     # finewest_test
     sql2 = pymysql.connect (
-        host='rm-2zehi2ns25kee8568o.mysql.rds.aliyuncs.com',
-        port=3306,
-        user='fwtest',
-        password='Finewest2018',
-        db='fwtest'
+        host='',
+        port=,
+        user='',
+        password='',
+        db=''
     )
     cursor2 = sql2.cursor ()
 
     # 代理IP
     proxyHost = "http-pro.abuyun.com"
-    proxyPort = "9010"
-    proxyUser = "H6B8WY3O4988764P"
-    proxyPass = "B44BC8FAD71691A4"
+    proxyPort = ""
+    proxyUser = ""
+    proxyPass = ""
     proxy_auth_plugin_path = create_proxy_auth_extension (
         proxy_host=proxyHost,
         proxy_port=proxyPort,
